@@ -10,18 +10,19 @@ body{
 a{
     text-decoration: none;
 }
-/* ================== header section ==================== */
+/* ============================= header section ==================== */
 header{
     max-width: 1280px;
     min-height: 550px;
     max-height: fit-content;
     margin: 0 auto;
-    background: linear-gradient(rgba(152,50,59,0.8) , rgba(152,50,59,0.8) , rgba(152,50,59,0.8) , rgba(152,50,59,0.8)) , url('../images/bg-1.jpg');
+    background: linear-gradient(rgba(220, 54, 63, 0.779), rgba(220, 54, 63, 0.779),rgba(220, 54, 63, 0.779), rgba(220, 54, 63, 0.779)), url('../images/bg-1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
     position: relative;
 }
+/* ========= header > container > nav ============ */
 nav .logo-div{
     display: flex;
     justify-content: center;
@@ -50,4 +51,37 @@ nav ul li a{
 .menu-icon i{
     font-size: 40px;
     color: white;
+}
+/* ========== header > container > banner =========== */
+.banner-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.banner-container .banner-content{
+    width: 60%;
+    text-align: center;
+    padding:30px 0 50px 0;
+}
+.banner-container .banner-content h1{
+    font-size: 220px;
+    color: white;
+    font-family: 'Grand Hotel', cursive;
+    margin: 0;
+}
+.banner-container .banner-content p{
+    font-size: 20px;
+    padding: 0 40px;
+    margin-bottom: 60px;
+    color: white;
+}
+.banner-container .banner-content button{
+    width: 250px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #e8565e;
+    background-color: white;
 }

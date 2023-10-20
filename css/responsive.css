@@ -1,6 +1,28 @@
+@media screen and (max-width:1024px){
+    /* =============== header > container > nav > ul ========== */
+    nav ul li{
+        margin: 0 20px;
+    }
+    /* ============= header > container > banner ================= */
+    .banner-container .banner-content{
+        width: 70% ;
+    }
+}
+@media screen and (max-width:768px) {
+     /* ============= header > container > banner ================= */
+     .banner-container .banner-content{
+        width: 90%;
+    }
+    .banner-container .banner-content h1{
+        font-size: 200px;
+    }
+    .banner-container .banner-content button{
+        width: 220px;
+    }
+}
 @media screen and (max-width:576px) {
 
-    /* ==================== header =================== */
+    /* ==================== header  > container > nav =================== */
     nav{
         display: flex;
         align-items: center;
@@ -14,5 +36,23 @@
     }
     .menu-icon{
         display: block;
+    }
+    /* ============= header > container > banner ================= */
+    .banner-container .banner-content{
+        width: 100%;
+        text-align: justify;
+    }
+    .banner-container .banner-content h1{
+        font-size: 100px;
+    }
+    .banner-container .banner-content p{
+        padding: 0 10px;
+        margin: 20px 0 40px 0;
+    }
+    .banner-container .banner-content button{
+        width: 180px;
+        padding: 6px 0;
+        font-size: 18px;
+        margin-left: 10px;
     }
 }
