@@ -303,6 +303,38 @@ nav ul li a{
     color: white;
     background-color:  #e8565e;
 }
+/* ===================== chat girl section ============ */
+.girl-section{
+    background: linear-gradient(rgba(255, 255, 255, 0.779),
+     rgba(255, 255, 255, 0.779),rgba(255, 255, 255, 0.779),
+      rgba(255, 255, 255, 0.779)), url('../images/bg-1.jpg');
+}
+.girl-container{
+    padding: 80px 0  ;
+}
+.girl-content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.girl-content img{
+    border-radius: 50%;
+    width: 250px;
+}
+.girl-content p{
+    font-size: 30px;
+    color: #3d3d3d;
+    font-weight: 500;
+    margin: 40px 0;
+}
+.girl-content h2{
+    font-size: 50px ;
+    color: #e8565e;
+    font-family: 'Grand Hotel', cursive;
+}
 /* ========================== subscribe */
 .sub-sec {
     background-color: #f9f6e4;
