@@ -10,17 +10,19 @@ body{
 a{
     text-decoration: none;
 }
-/* ============================= header section ==================== */
-header{
+.my-container{
     max-width: 1280px;
     min-height: 550px;
     max-height: fit-content;
     margin: 0 auto;
-    background: linear-gradient(rgba(220, 54, 63, 0.779), rgba(220, 54, 63, 0.779),rgba(220, 54, 63, 0.779), rgba(220, 54, 63, 0.779)), url('../images/bg-1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
     position: relative;
+}
+/* ============================= header section ==================== */
+.header-section{
+    background: linear-gradient(rgba(220, 54, 63, 0.779), rgba(220, 54, 63, 0.779),rgba(220, 54, 63, 0.779), rgba(220, 54, 63, 0.779)), url('../images/bg-1.jpg');
 }
 /* ========= header > container > nav ============ */
 nav .logo-div{
@@ -84,4 +86,26 @@ nav ul li a{
     font-weight: 700;
     color: #e8565e;
     background-color: white;
+}
+/* =================== popular section ================ */
+.popular-section{
+    background: linear-gradient(rgba(251, 251, 251, 0.779), rgba(251, 251, 251, 0.779),rgba(251, 251, 251, 0.779), rgba(251, 251, 251, 0.779)), url('../images/bg-2.jpg');
+}
+.popular-container{
+    padding:50px 0;
+
+}
+.popular-container .popular-header{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.popular-container .popular-header h2{
+    font-size: 135px;
+    color: #e8565e;
+    font-family: 'Grand Hotel', cursive;
+}
+.popular-container .popular-header p{
+    font-size: 20px;
+    margin: 20px 0;
 }
