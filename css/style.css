@@ -109,3 +109,31 @@ nav ul li a{
     font-size: 20px;
     margin: 20px 0;
 }
+.popular-container .popular-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    text-align: center;
+}
+.popular-content .popular-food{
+    width: 30%;
+}
+.popular-food:hover{
+    border-radius: 10px;
+    box-shadow: 9px 12px 10px -1px rgba(145,140,140,0.7);
+    -webkit-box-shadow: 2px 5px 11px 5px rgba(145,140,140,0.7);
+    -moz-box-shadow: 9px 12px 10px -1px rgba(145,140,140,0.7);
+}
+.popular-content .popular-food  img{
+    width: 250px;
+    border-radius: 50%;
+}
+.popular-content .popular-food  h2{
+    font-size: 55px;
+    color: #e8565e;
+    font-family: 'Grand Hotel', cursive;
+}
+.popular-content .popular-food p{
+    font-size: 20px;
+}

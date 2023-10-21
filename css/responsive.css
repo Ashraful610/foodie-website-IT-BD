@@ -7,6 +7,10 @@
     .banner-container .banner-content{
         width: 70% ;
     }
+    /* ====================== popular section ============ */
+    .popular-content .popular-food  img{
+        width: 230px;
+    }
 }
 @media screen and (max-width:768px) {
      /* ============= header > container > banner ================= */
@@ -22,6 +26,14 @@
     /* ========================== popular section =========== */
     .popular-container .popular-header{
         width: 70%;
+    }
+    .popular-container .popular-content{
+        display: block;
+    }
+    .popular-content .popular-food{
+        width: 100%;
+        /* background-color: rgb(84, 169, 230); */
+        padding: 50px 20px;
     }
 }
 @media screen and (max-width:576px) {
