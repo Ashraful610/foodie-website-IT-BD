@@ -22,7 +22,9 @@ a{
 }
 /* ============================= header section ==================== */
 .header-section{
-    background: linear-gradient(rgba(220, 54, 63, 0.779), rgba(220, 54, 63, 0.779),rgba(220, 54, 63, 0.779), rgba(220, 54, 63, 0.779)), url('../images/bg-1.jpg');
+    background: linear-gradient(rgba(235, 77, 85, 0.779),
+     rgba(235, 77, 85, 0.779),rgba(235, 77, 85, 0.779),
+      rgba(235, 77, 85, 0.779)), url('../images/bg-1.jpg');
 }
 /* ========= header > container > nav ============ */
 nav .logo-div{
@@ -88,36 +90,41 @@ nav ul li a{
     background-color: white;
 }
 /* =================== popular section ================ */
-.popular-section{
+.popular-section {
     background: linear-gradient(rgba(251, 251, 251, 0.779), rgba(251, 251, 251, 0.779),rgba(251, 251, 251, 0.779), rgba(251, 251, 251, 0.779)), url('../images/bg-2.jpg');
 }
-.popular-container{
+.popular-container , .statistic-container{
     padding:50px 0;
 
 }
-.popular-container .popular-header{
+.popular-container .popular-header , .statistic-header{
     width: 50%;
     margin: 0 auto;
     text-align: center;
 }
-.popular-container .popular-header h2{
+.popular-container .popular-header h2 , .statistic-header h2{
     font-size: 135px;
-    color: #e8565e;
     font-family: 'Grand Hotel', cursive;
 }
-.popular-container .popular-header p{
+.popular-container .popular-header h2{    
+    color: #e8565e;
+}
+.popular-container .popular-header p {
     font-size: 20px;
     margin: 20px 0;
 }
-.popular-container .popular-content{
+.popular-container .popular-content , .statistic-container .statistic-content{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 30px 0;
     text-align: center;
 }
-.popular-content .popular-food{
+.popular-content .popular-food , .statistic-content .statistic-details{
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .popular-food:hover{
     border-radius: 10px;
@@ -129,11 +136,40 @@ nav ul li a{
     width: 250px;
     border-radius: 50%;
 }
-.popular-content .popular-food  h2{
+.popular-content .popular-food  h2 {
     font-size: 55px;
     color: #e8565e;
     font-family: 'Grand Hotel', cursive;
 }
 .popular-content .popular-food p{
     font-size: 20px;
+}
+/* ======================== statistic section ============= */
+.statistic-section{
+    background: linear-gradient(rgba(235, 77, 85, 0.779),
+     rgba(235, 77, 85, 0.779),rgba(235, 77, 85, 0.779),
+      rgba(235, 77, 85, 0.779)), url('../images/img-6.png');
+}
+.statistic-container .statistic-header{
+    color: white;
+}
+.statistic-container .statistic-header{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.statistic-content .statistic-details .statistic-card{
+    height: 230px;
+    width: 70%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    border: 6px dashed white ;
+}
+ .statistic-details .statistic-card h2{
+    font-size: 50px;
+}
+.statistic-details  .statistic-card p{
+    font-size: 45px;
 }

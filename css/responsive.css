@@ -11,6 +11,17 @@
     .popular-content .popular-food  img{
         width: 230px;
     }
+    /* ===================== statistic section ================ */
+    .statistic-header{
+        width: 70%;
+    }
+    .statistic-content .statistic-details{
+        height: 220px;
+        width: 30%;
+    }
+    .statistic-details .statistic-card{
+        width: 100%;
+    }
 }
 @media screen and (max-width:768px) {
      /* ============= header > container > banner ================= */
@@ -27,13 +38,31 @@
     .popular-container .popular-header{
         width: 70%;
     }
-    .popular-container .popular-content{
+    .popular-container .popular-content , .statistic-container .statistic-content{
         display: block;
     }
     .popular-content .popular-food{
         width: 100%;
-        /* background-color: rgb(84, 169, 230); */
         padding: 50px 20px;
+    }
+     /* ===================== statistic section ================ */
+     .statistic-header{
+        width: 90%;
+    }
+    .statistic-content .statistic-details{
+        height: fit-content;
+        width: 100%;
+        padding: 50px 0;
+    }
+    .statistic-details .statistic-card{
+        width: 50% !important;
+        height: 450px;
+    }
+    .statistic-details .statistic-card h2{
+        font-size: 40px;
+    }
+    .statistic-details  .statistic-card p{
+        font-size: 35px;
     }
 }
 @media screen and (max-width:576px) {
@@ -71,12 +100,24 @@
         font-size: 18px;
         margin-left: 10px;
     }
-    /* ========================== popular section =========== */
-    .popular-container .popular-header{
+    /* ========================== popular section + statistic section =========== */
+    .popular-container .popular-header , .statistic-container .statistic-header{
         width: 100%;
         text-align: justify;
     }
-    .popular-container .popular-header h2{
-        font-size: 90px;
+    .popular-container .popular-header h2 , .statistic-container .statistic-header h2{
+        font-size: 80px;
     }
+    /* ============== statistic section ============== */
+    .statistic-details .statistic-card{
+        width: 60% !important;
+        height: 450px;
+    }
+    .statistic-details .statistic-card h2{
+        font-size: 40px;
+    }
+    .statistic-details .statistic-card p{
+        font-size: 35px;
+    }
+
 }
