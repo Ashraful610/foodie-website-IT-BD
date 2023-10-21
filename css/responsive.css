@@ -111,6 +111,10 @@
     .girl-content{
         width: 80%;
     }
+    /* ====================== subscribe section ============= */
+    .subscribe-content{
+        width: 80%;
+    }
 }
 @media screen and (max-width:576px) {
 
@@ -198,10 +202,41 @@
         width: 100%;
     }
     .girl-content p{
-        font-size: 25px;
+        font-size: 20px;
         margin: 30px 0;
     }
     .girl-content h2{
         font-size: 40px ;
+    }
+    /* ====================== subscribe section ============= */
+    .subscribe-content{
+        width: 100%;
+    }
+    .subscribe-content h2{
+        font-size: 80px;
+    }
+    .subscribe-content p{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .input-content{
+        width: 100%;
+    }
+    .input-content input{
+        width: 70%;
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .input-content button{
+        width: 30%;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        border: none;
+        outline: none;
+        padding: 10px;
+        background-color: #eb4d55;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
     }
 }

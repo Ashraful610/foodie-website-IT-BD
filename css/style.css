@@ -336,60 +336,60 @@ nav ul li a{
     font-family: 'Grand Hotel', cursive;
 }
 /* ========================== subscribe */
-.sub-sec {
-    background-color: #f9f6e4;
-  }
-  
-  .sub-sec h1 {
-    font-size: 125px;
+.subscribe-section{
+    max-width: 1280px;
+    height: 500px;
+    max-height: fit-content;
+    margin: 0 auto;
+    background-color: #f9f5e3;
+}
+.subscribe-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.subscribe-content{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.subscribe-content h2{
+    font-size: 100px;
     color: #eb4d55;
-    font-weight: 400;
-    font-family: "Grand Hotel", cursive;
-  }
-  
-  .sub-sec p {
-    font-size: 30px;
-    color: #3d3d3d;
-    font-weight: 400;
-  }
-  
-  .input-group {
-    width: 659px;
-    height: 43px;
-    background-color: #ffffff;
-    border-radius: 32px;
-    border: none !important;
-    border-radius: 23px !important;
-  }
-  
-  .input-group-text {
-    background-color: #eb4d55;
-    border-radius: 23px !important;
-  }
-  
-  footer {
-    background-color: #242525;
-  }
-  
-  .first-footer h1 {
-    font-size: 54px;
-    color: #ffffff;
-    font-weight: 400;
-    font-family: "Grand Hotel", cursive;
-  }
-  
-  .footer h1 {
-    font-size: 39px;
-    color: #ffffff;
-    font-weight: 400;
-    font-family: "Grand Hotel", cursive;
-  }
-  
-  .footer a {
+    font-family: 'Grand Hotel', cursive;
+}
+.subscribe-content p{
     font-size: 20px;
-    line-height: 38px;
-    color: #ffffff;
-    font-weight: 400;
-    display: block;
-  }
-  
+    margin-bottom: 40px;
+}
+.input-content{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+}
+.input-content input{
+    font-size: 20px;
+    width: 75%;
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.input-content button{
+    width: 25%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: #eb4d55;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
