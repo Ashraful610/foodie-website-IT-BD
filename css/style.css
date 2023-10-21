@@ -393,3 +393,42 @@ nav ul li a{
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
 }
+/* ======================== footer section =================== */
+.footer-section{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #292929;
+    color: white;
+}
+.footer-container{
+    min-height: 400px;
+    max-height: fit-content;
+    display: flex;
+    align-items: center;
+}
+.first-footer-content{
+    padding-right: 110px;
+}
+.first-footer-content h2{
+    font-size: 50px;
+    font-family: 'Grand Hotel', cursive;
+}
+.first-footer-content p{
+    font-size: 16px;
+}
+.footer-content h2{
+    font-size: 30px;
+    font-family: 'Grand Hotel', cursive;
+    margin-bottom: 20px;
+}
+.footer-content ul{
+    padding: 0;
+}
+.footer-content ul li{
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.footer-content ul li a{
+    color: white;
+}

@@ -25,25 +25,30 @@
     /* ================ menu section =============== */
     .menu-details{
       width: 48%;
-   }
+    }
    .content .menu-text{
     padding-left: 20px !important;
-  }
+    }
   /* ============================== pasta section =============== */
   .pasta-content{
     width: 100%;
     padding: 0 50px;
- }
+    }
  .pasta-content h2{
     font-size: 90px;
- }
+    }
  /* ==================== package section ================== */
  .package-header{
     width: 70%;
-}
-.package-card h2{
+    }
+ .package-card h2{
      font-size: 45px;
-}
+    }
+    /* ====================== footer section ============= */
+    .first-footer-content{
+        padding-right: 90px;
+    }
+
 }
 @media screen and (max-width:768px) {
      /* ============= header > container > banner ================= */
@@ -114,6 +119,9 @@
     /* ====================== subscribe section ============= */
     .subscribe-content{
         width: 80%;
+    }
+    .footer-content{
+        margin-bottom: 20px;
     }
 }
 @media screen and (max-width:576px) {
@@ -230,13 +238,14 @@
     .input-content button{
         width: 30%;
         font-size: 16px;
-        font-weight: bold;
-        color: white;
-        border: none;
-        outline: none;
         padding: 10px;
-        background-color: #eb4d55;
-        border-top-right-radius: 100px;
-        border-bottom-right-radius: 100px;
+    }
+    /* ================== footer section ============= */
+    .first-footer-content{
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+    .footer-content h2{
+        margin-bottom: 0px;
     }
 }
