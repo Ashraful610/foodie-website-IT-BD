@@ -79,7 +79,7 @@ nav ul li a{
     margin-bottom: 60px;
     color: white;
 }
-.banner-container .banner-content button{
+.banner-container .banner-content button {
     width: 250px;
     border: none;
     border-radius: 40px;
@@ -93,34 +93,34 @@ nav ul li a{
 .popular-section {
     background: linear-gradient(rgba(251, 251, 251, 0.779), rgba(251, 251, 251, 0.779),rgba(251, 251, 251, 0.779), rgba(251, 251, 251, 0.779)), url('../images/bg-2.jpg');
 }
-.popular-container , .statistic-container{
+.popular-container , .statistic-container , .menu-container{
     padding:50px 0;
 
 }
-.popular-container .popular-header , .statistic-header{
+.popular-header , .statistic-header , .menu-header{
     width: 50%;
     margin: 0 auto;
     text-align: center;
 }
-.popular-container .popular-header h2 , .statistic-header h2{
+.popular-header h2 , .statistic-header h2 , .menu-header h2 , .package-header h2 {
     font-size: 135px;
     font-family: 'Grand Hotel', cursive;
 }
-.popular-container .popular-header h2{    
+.popular-header h2 , .menu-header h2 , .package-header h2{    
     color: #e8565e;
 }
-.popular-container .popular-header p {
+.popular-header p , .menu-header p , .package-header p{
     font-size: 20px;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
-.popular-container .popular-content , .statistic-container .statistic-content{
+.popular-content , .statistic-content , .package-content{
     width: 100%;
     display: flex;
     justify-content: space-around;
     padding: 30px 0;
     text-align: center;
 }
-.popular-content .popular-food , .statistic-content .statistic-details{
+.popular-food , .statistic-details {
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -136,12 +136,12 @@ nav ul li a{
     width: 250px;
     border-radius: 50%;
 }
-.popular-content .popular-food  h2 {
+.popular-content .popular-food  h2  {
     font-size: 55px;
     color: #e8565e;
     font-family: 'Grand Hotel', cursive;
 }
-.popular-content .popular-food p{
+.popular-food p{
     font-size: 20px;
 }
 /* ======================== statistic section ============= */
@@ -173,3 +173,191 @@ nav ul li a{
 .statistic-details  .statistic-card p{
     font-size: 45px;
 }
+/* ========================= menu section =============== */
+.menu-section{
+    background-color: #ede5cb;
+}
+.menu-content{
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+}
+.menu-details{
+    width: 45%;
+    /* background-color: blueviolet; */
+}
+.menu-details .content{
+    height: 50%;
+    padding: 20px;
+    display: flex;
+}
+.content img{
+    width: 200px;
+    height: 50%;
+}
+.content .menu-text{
+    padding: 20px;
+}
+.content .menu-text h3{
+    color: #e8565e;
+}
+/* ========================== pasta section ============== */
+.pasta-section{
+    height: 100vh;
+    max-width: 1280px;
+    display: flex;
+}
+.pasta-img{
+    width: 45%;
+    height: 100%;
+    position: relative;
+}
+.pasta-img::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(235, 77, 85, 0.779),
+     rgba(235, 77, 85, 0.779),rgba(235, 77, 85, 0.779),
+      rgba(235, 77, 85, 0.779))
+}
+.pasta-img img{
+    width: 100%;
+    height: 100%;
+}
+.pasta-details{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pasta-content{
+    width: 80%;
+}
+.pasta-content h2{
+    font-size: 100px;
+    color: #e8565e;
+    font-family: 'Grand Hotel', cursive;
+}
+.pasta-content p{
+    font-size: 20px;
+    color: #3d3d3d;
+}
+.pasta-content button{
+    width: 250px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color:  #e8565e;
+}
+/* ========================== package section ============== */
+.package-section {
+    background-color: #ede5cb;
+}
+.package-header{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.package-card{
+    width: 32%;
+    max-height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 50px 0;
+    border-radius: 20px;
+    background-color: #f9f5e3;
+}
+.package-card:hover{
+    box-shadow: 9px 12px 10px -1px rgba(198, 193, 193,0.7);
+    -webkit-box-shadow: 2px 5px 11px 5px rgba(198, 193, 193,0.7);
+    -moz-box-shadow: 9px 12px 10px -1px rgba(198, 193, 193, 0.7);
+}
+.package-card img{
+    margin:10px 0 40px 0;
+}
+.package-card h2{
+    font-size: 50px;
+    color: #e8565e;
+    font-family: 'Grand Hotel', cursive;
+}
+.package-card p{
+    font-size: 18px;
+}
+.package-card button{
+    width: 180px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color:  #e8565e;
+}
+/* ========================== subscribe */
+.sub-sec {
+    background-color: #f9f6e4;
+  }
+  
+  .sub-sec h1 {
+    font-size: 125px;
+    color: #eb4d55;
+    font-weight: 400;
+    font-family: "Grand Hotel", cursive;
+  }
+  
+  .sub-sec p {
+    font-size: 30px;
+    color: #3d3d3d;
+    font-weight: 400;
+  }
+  
+  .input-group {
+    width: 659px;
+    height: 43px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    border: none !important;
+    border-radius: 23px !important;
+  }
+  
+  .input-group-text {
+    background-color: #eb4d55;
+    border-radius: 23px !important;
+  }
+  
+  footer {
+    background-color: #242525;
+  }
+  
+  .first-footer h1 {
+    font-size: 54px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel", cursive;
+  }
+  
+  .footer h1 {
+    font-size: 39px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel", cursive;
+  }
+  
+  .footer a {
+    font-size: 20px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 400;
+    display: block;
+  }
+  

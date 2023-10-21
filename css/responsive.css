@@ -22,6 +22,28 @@
     .statistic-details .statistic-card{
         width: 100%;
     }
+    /* ================ menu section =============== */
+    .menu-details{
+      width: 48%;
+   }
+   .content .menu-text{
+    padding-left: 20px !important;
+  }
+  /* ============================== pasta section =============== */
+  .pasta-content{
+    width: 100%;
+    padding: 0 50px;
+ }
+ .pasta-content h2{
+    font-size: 90px;
+ }
+ /* ==================== package section ================== */
+ .package-header{
+    width: 70%;
+}
+.package-card h2{
+     font-size: 45px;
+}
 }
 @media screen and (max-width:768px) {
      /* ============= header > container > banner ================= */
@@ -35,13 +57,13 @@
         width: 220px;
     }
     /* ========================== popular section =========== */
-    .popular-container .popular-header{
+    .popular-container .popular-header , .menu-header{
         width: 70%;
     }
-    .popular-container .popular-content , .statistic-container .statistic-content{
+    .popular-content , .statistic-content , .package-content{
         display: block;
     }
-    .popular-content .popular-food{
+    .popular-food , .package-card{
         width: 100%;
         padding: 50px 20px;
     }
@@ -63,6 +85,27 @@
     }
     .statistic-details  .statistic-card p{
         font-size: 35px;
+    }/* ================ menu section =============== */
+    .menu-content{
+        display: block;
+    }
+    .menu-details{
+        width: 100%;
+     }
+     /* ==================== pasta section ============= */
+     .pasta-content h2{
+        font-size: 60px;
+     }
+     .pasta-content button{
+        width: 210px;
+        font-size: 16px;
+    }
+    /* ===================== package section =========== */
+    .package-header{
+        width: 100%;
+    }    
+    .package-card {
+        margin-bottom: 20px;
     }
 }
 @media screen and (max-width:576px) {
@@ -101,11 +144,11 @@
         margin-left: 10px;
     }
     /* ========================== popular section + statistic section =========== */
-    .popular-container .popular-header , .statistic-container .statistic-header{
+    .popular-header , .statistic-header , .menu-header{
         width: 100%;
         text-align: justify;
     }
-    .popular-container .popular-header h2 , .statistic-container .statistic-header h2{
+    .popular-header h2 , .statistic-header h2 , .menu-header h2 , .package-header h2{
         font-size: 80px;
     }
     /* ============== statistic section ============== */
@@ -119,5 +162,31 @@
     .statistic-details .statistic-card p{
         font-size: 35px;
     }
-
+    /* ===================== menu section */
+    .content {
+        display: block;
+    }
+    /* ========================= pasta section ============ */
+    .pasta-section{
+        display: block ;
+    }
+    .pasta-img{
+        width: 100%;
+    }
+    .pasta-details{
+        width: 100%;
+        height: fit-content;
+        padding: 100px 20px;
+    }
+    .pasta-content{
+        width: 100%;
+        padding: 0px;
+    }
+    .pasta-content h2{
+        font-size: 50px;
+     }
+     .pasta-content button{
+        width: 200px;
+        font-size: 15px;
+    }
 }
